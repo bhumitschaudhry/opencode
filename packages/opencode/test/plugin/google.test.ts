@@ -4,7 +4,7 @@ import {
   generatePKCE,
   base64UrlEncode,
   generateRandomString,
-  AccountTier,
+  type AccountTier,
 } from "../../src/plugin/google"
 import { GoogleOAuthError, GoogleOAuthCancelledError, GoogleOAuthTimeoutError } from "../../src/plugin/google"
 
